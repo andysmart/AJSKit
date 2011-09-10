@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A10F4C36141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
-		A10F4C3C141B693100617249 /* AJSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F4C3B141B693100617249 /* AJSKit.m */; };
 		A10F4C44141B693100617249 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C43141B693100617249 /* SenTestingKit.framework */; };
 		A10F4C46141B693100617249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C45141B693100617249 /* UIKit.framework */; };
 		A10F4C47141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
@@ -19,6 +18,7 @@
 		A10F4C56141B693100617249 /* AJSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F4C55141B693100617249 /* AJSKitTests.m */; };
 		A10F4C63141B69DC00617249 /* NSObject+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10F4C61141B69DC00617249 /* NSObject+AJSAdditions.h */; };
 		A10F4C64141B69DC00617249 /* NSObject+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F4C62141B69DC00617249 /* NSObject+AJSAdditions.m */; };
+		A10F4C66141B6BA600617249 /* AJSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A10F4C65141B6BA600617249 /* AJSKit.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +35,6 @@
 		A10F4C32141B693100617249 /* libAJSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAJSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F4C35141B693100617249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A10F4C39141B693100617249 /* AJSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJSKit-Prefix.pch"; sourceTree = "<group>"; };
-		A10F4C3A141B693100617249 /* AJSKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJSKit.h; sourceTree = "<group>"; };
-		A10F4C3B141B693100617249 /* AJSKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSKit.m; sourceTree = "<group>"; };
 		A10F4C42141B693100617249 /* AJSKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJSKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F4C43141B693100617249 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A10F4C45141B693100617249 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -47,6 +45,7 @@
 		A10F4C55141B693100617249 /* AJSKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSKitTests.m; sourceTree = "<group>"; };
 		A10F4C61141B69DC00617249 /* NSObject+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AJSAdditions.h"; sourceTree = "<group>"; };
 		A10F4C62141B69DC00617249 /* NSObject+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AJSAdditions.m"; sourceTree = "<group>"; };
+		A10F4C65141B6BA600617249 /* AJSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJSKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +105,9 @@
 		A10F4C37141B693100617249 /* AJSKit */ = {
 			isa = PBXGroup;
 			children = (
+				A10F4C65141B6BA600617249 /* AJSKit.h */,
 				A10F4C60141B69A700617249 /* Views */,
 				A10F4C5F141B696E00617249 /* Categories */,
-				A10F4C3A141B693100617249 /* AJSKit.h */,
-				A10F4C3B141B693100617249 /* AJSKit.m */,
 				A10F4C38141B693100617249 /* Supporting Files */,
 			);
 			path = AJSKit;
@@ -167,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10F4C63141B69DC00617249 /* NSObject+AJSAdditions.h in Headers */,
+				A10F4C66141B6BA600617249 /* AJSKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10F4C3C141B693100617249 /* AJSKit.m in Sources */,
 				A10F4C64141B69DC00617249 /* NSObject+AJSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AJSKit : NSObject
-
-@end
+#import "NSObject+AJSAdditions.h"
