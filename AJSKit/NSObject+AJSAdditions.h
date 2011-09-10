@@ -10,6 +10,6 @@
 
 @interface NSObject (AJSAdditions)
 
-- (void) performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay;
+- (void) ajs_performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay;
 
 @end

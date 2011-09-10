@@ -8,4 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
+//Categories
+
 #import "NSObject+AJSAdditions.h"
