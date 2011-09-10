@@ -17,6 +17,8 @@
 		A10F4C52141B693100617249 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A10F4C50141B693100617249 /* InfoPlist.strings */; };
 		A10F4C54141B693100617249 /* AJSKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A10F4C53141B693100617249 /* AJSKitTests.h */; };
 		A10F4C56141B693100617249 /* AJSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F4C55141B693100617249 /* AJSKitTests.m */; };
+		A10F4C63141B69DC00617249 /* NSObject+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10F4C61141B69DC00617249 /* NSObject+AJSAdditions.h */; };
+		A10F4C64141B69DC00617249 /* NSObject+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F4C62141B69DC00617249 /* NSObject+AJSAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,17 +34,19 @@
 /* Begin PBXFileReference section */
 		A10F4C32141B693100617249 /* libAJSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAJSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F4C35141B693100617249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A10F4C39141B693100617249 /* AJSKit-Prefix.pch */ = {isa = PBXFileReference; path = "AJSKit-Prefix.pch"; sourceTree = "<group>"; };
-		A10F4C3A141B693100617249 /* AJSKit.h */ = {isa = PBXFileReference; path = AJSKit.h; sourceTree = "<group>"; };
+		A10F4C39141B693100617249 /* AJSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJSKit-Prefix.pch"; sourceTree = "<group>"; };
+		A10F4C3A141B693100617249 /* AJSKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJSKit.h; sourceTree = "<group>"; };
 		A10F4C3B141B693100617249 /* AJSKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSKit.m; sourceTree = "<group>"; };
 		A10F4C42141B693100617249 /* AJSKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJSKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F4C43141B693100617249 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A10F4C45141B693100617249 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A10F4C48141B693100617249 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		A10F4C4F141B693100617249 /* AJSKitTests-Info.plist */ = {isa = PBXFileReference; path = "AJSKitTests-Info.plist"; sourceTree = "<group>"; };
+		A10F4C4F141B693100617249 /* AJSKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AJSKitTests-Info.plist"; sourceTree = "<group>"; };
 		A10F4C51141B693100617249 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A10F4C53141B693100617249 /* AJSKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJSKitTests.h; sourceTree = "<group>"; };
 		A10F4C55141B693100617249 /* AJSKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSKitTests.m; sourceTree = "<group>"; };
+		A10F4C61141B69DC00617249 /* NSObject+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AJSAdditions.h"; sourceTree = "<group>"; };
+		A10F4C62141B69DC00617249 /* NSObject+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AJSAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				A10F4C37141B693100617249 /* AJSKit */,
-				A10F4C4D141B693100617249 /* AJSKitTests */,
+				A10F4C4D141B693100617249 /* Tests */,
 				A10F4C34141B693100617249 /* Frameworks */,
 				A10F4C33141B693100617249 /* Products */,
 			);
@@ -102,6 +106,8 @@
 		A10F4C37141B693100617249 /* AJSKit */ = {
 			isa = PBXGroup;
 			children = (
+				A10F4C60141B69A700617249 /* Views */,
+				A10F4C5F141B696E00617249 /* Categories */,
 				A10F4C3A141B693100617249 /* AJSKit.h */,
 				A10F4C3B141B693100617249 /* AJSKit.m */,
 				A10F4C38141B693100617249 /* Supporting Files */,
@@ -117,13 +123,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A10F4C4D141B693100617249 /* AJSKitTests */ = {
+		A10F4C4D141B693100617249 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				A10F4C53141B693100617249 /* AJSKitTests.h */,
 				A10F4C55141B693100617249 /* AJSKitTests.m */,
 				A10F4C4E141B693100617249 /* Supporting Files */,
 			);
+			name = Tests;
 			path = AJSKitTests;
 			sourceTree = "<group>";
 		};
@@ -136,6 +143,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A10F4C5F141B696E00617249 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A10F4C61141B69DC00617249 /* NSObject+AJSAdditions.h */,
+				A10F4C62141B69DC00617249 /* NSObject+AJSAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		A10F4C60141B69A700617249 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -143,6 +166,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10F4C63141B69DC00617249 /* NSObject+AJSAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10F4C3C141B693100617249 /* AJSKit.m in Sources */,
+				A10F4C64141B69DC00617249 /* NSObject+AJSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
