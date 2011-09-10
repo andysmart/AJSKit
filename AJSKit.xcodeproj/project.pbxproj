@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10F4C36141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
+		A10F4C3C141B693100617249 /* AJSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F4C3B141B693100617249 /* AJSKit.m */; };
+		A10F4C44141B693100617249 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C43141B693100617249 /* SenTestingKit.framework */; };
+		A10F4C46141B693100617249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C45141B693100617249 /* UIKit.framework */; };
+		A10F4C47141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
+		A10F4C49141B693100617249 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C48141B693100617249 /* CoreGraphics.framework */; };
+		A10F4C4C141B693100617249 /* libAJSKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C32141B693100617249 /* libAJSKit.a */; };
+		A10F4C52141B693100617249 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A10F4C50141B693100617249 /* InfoPlist.strings */; };
+		A10F4C54141B693100617249 /* AJSKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A10F4C53141B693100617249 /* AJSKitTests.h */; };
+		A10F4C56141B693100617249 /* AJSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F4C55141B693100617249 /* AJSKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10F4C4A141B693100617249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10F4C29141B693100617249 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10F4C31141B693100617249;
+			remoteInfo = AJSKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10F4C32141B693100617249 /* libAJSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAJSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10F4C35141B693100617249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A10F4C39141B693100617249 /* AJSKit-Prefix.pch */ = {isa = PBXFileReference; path = "AJSKit-Prefix.pch"; sourceTree = "<group>"; };
+		A10F4C3A141B693100617249 /* AJSKit.h */ = {isa = PBXFileReference; path = AJSKit.h; sourceTree = "<group>"; };
+		A10F4C3B141B693100617249 /* AJSKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSKit.m; sourceTree = "<group>"; };
+		A10F4C42141B693100617249 /* AJSKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJSKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10F4C43141B693100617249 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A10F4C45141B693100617249 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A10F4C48141B693100617249 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A10F4C4F141B693100617249 /* AJSKitTests-Info.plist */ = {isa = PBXFileReference; path = "AJSKitTests-Info.plist"; sourceTree = "<group>"; };
+		A10F4C51141B693100617249 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A10F4C53141B693100617249 /* AJSKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJSKitTests.h; sourceTree = "<group>"; };
+		A10F4C55141B693100617249 /* AJSKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10F4C2F141B693100617249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F4C36141B693100617249 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10F4C3E141B693100617249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F4C44141B693100617249 /* SenTestingKit.framework in Frameworks */,
+				A10F4C46141B693100617249 /* UIKit.framework in Frameworks */,
+				A10F4C47141B693100617249 /* Foundation.framework in Frameworks */,
+				A10F4C49141B693100617249 /* CoreGraphics.framework in Frameworks */,
+				A10F4C4C141B693100617249 /* libAJSKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10F4C27141B693100617249 = {
+			isa = PBXGroup;
+			children = (
+				A10F4C37141B693100617249 /* AJSKit */,
+				A10F4C4D141B693100617249 /* AJSKitTests */,
+				A10F4C34141B693100617249 /* Frameworks */,
+				A10F4C33141B693100617249 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10F4C33141B693100617249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10F4C32141B693100617249 /* libAJSKit.a */,
+				A10F4C42141B693100617249 /* AJSKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10F4C34141B693100617249 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A10F4C35141B693100617249 /* Foundation.framework */,
+				A10F4C43141B693100617249 /* SenTestingKit.framework */,
+				A10F4C45141B693100617249 /* UIKit.framework */,
+				A10F4C48141B693100617249 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10F4C37141B693100617249 /* AJSKit */ = {
+			isa = PBXGroup;
+			children = (
+				A10F4C3A141B693100617249 /* AJSKit.h */,
+				A10F4C3B141B693100617249 /* AJSKit.m */,
+				A10F4C38141B693100617249 /* Supporting Files */,
+			);
+			path = AJSKit;
+			sourceTree = "<group>";
+		};
+		A10F4C38141B693100617249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A10F4C39141B693100617249 /* AJSKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A10F4C4D141B693100617249 /* AJSKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A10F4C53141B693100617249 /* AJSKitTests.h */,
+				A10F4C55141B693100617249 /* AJSKitTests.m */,
+				A10F4C4E141B693100617249 /* Supporting Files */,
+			);
+			path = AJSKitTests;
+			sourceTree = "<group>";
+		};
+		A10F4C4E141B693100617249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A10F4C4F141B693100617249 /* AJSKitTests-Info.plist */,
+				A10F4C50141B693100617249 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A10F4C30141B693100617249 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A10F4C31141B693100617249 /* AJSKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10F4C59141B693100617249 /* Build configuration list for PBXNativeTarget "AJSKit" */;
+			buildPhases = (
+				A10F4C2E141B693100617249 /* Sources */,
+				A10F4C2F141B693100617249 /* Frameworks */,
+				A10F4C30141B693100617249 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJSKit;
+			productName = AJSKit;
+			productReference = A10F4C32141B693100617249 /* libAJSKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A10F4C41141B693100617249 /* AJSKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10F4C5C141B693100617249 /* Build configuration list for PBXNativeTarget "AJSKitTests" */;
+			buildPhases = (
+				A10F4C3D141B693100617249 /* Sources */,
+				A10F4C3E141B693100617249 /* Frameworks */,
+				A10F4C3F141B693100617249 /* Resources */,
+				A10F4C40141B693100617249 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10F4C4B141B693100617249 /* PBXTargetDependency */,
+			);
+			name = AJSKitTests;
+			productName = AJSKitTests;
+			productReference = A10F4C42141B693100617249 /* AJSKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10F4C29141B693100617249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Andy Smart";
+			};
+			buildConfigurationList = A10F4C2C141B693100617249 /* Build configuration list for PBXProject "AJSKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A10F4C27141B693100617249;
+			productRefGroup = A10F4C33141B693100617249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10F4C31141B693100617249 /* AJSKit */,
+				A10F4C41141B693100617249 /* AJSKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10F4C3F141B693100617249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F4C52141B693100617249 /* InfoPlist.strings in Resources */,
+				A10F4C54141B693100617249 /* AJSKitTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A10F4C40141B693100617249 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10F4C2E141B693100617249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F4C3C141B693100617249 /* AJSKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10F4C3D141B693100617249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F4C56141B693100617249 /* AJSKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10F4C4B141B693100617249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10F4C31141B693100617249 /* AJSKit */;
+			targetProxy = A10F4C4A141B693100617249 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A10F4C50141B693100617249 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10F4C51141B693100617249 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A10F4C57141B693100617249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A10F4C58141B693100617249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10F4C5A141B693100617249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AJSKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AJSKit/AJSKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A10F4C5B141B693100617249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AJSKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AJSKit/AJSKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A10F4C5D141B693100617249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AJSKit/AJSKit-Prefix.pch";
+				INFOPLIST_FILE = "AJSKitTests/AJSKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A10F4C5E141B693100617249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AJSKit/AJSKit-Prefix.pch";
+				INFOPLIST_FILE = "AJSKitTests/AJSKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10F4C2C141B693100617249 /* Build configuration list for PBXProject "AJSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10F4C57141B693100617249 /* Debug */,
+				A10F4C58141B693100617249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10F4C59141B693100617249 /* Build configuration list for PBXNativeTarget "AJSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10F4C5A141B693100617249 /* Debug */,
+				A10F4C5B141B693100617249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A10F4C5C141B693100617249 /* Build configuration list for PBXNativeTarget "AJSKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10F4C5D141B693100617249 /* Debug */,
+				A10F4C5E141B693100617249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10F4C29141B693100617249 /* Project object */;
+}
