@@ -35,9 +35,13 @@
 
 - (void) removeObjectsOfType:(Class)type
 {
+    NSMutableArray *removeObjects = [NSMutableArray array];
+    
     for (id anObject in self)
         if ([anObject isKindOfClass:type])
-            [self removeObject:anObject];
+            [removeObjects addObject:anObject];
+    
+    [self removeObjectsInArray:removeObjects];
 }
 
 @end
