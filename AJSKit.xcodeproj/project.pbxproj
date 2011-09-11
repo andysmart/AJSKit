@@ -26,6 +26,8 @@
 		A10EB7FB141CC2A1008AA938 /* NSString+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB7B3141CB970008AA938 /* NSString+AJSAdditions.m */; };
 		A10EB7FE141CC44A008AA938 /* NSMutableArrayAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB7FD141CC44A008AA938 /* NSMutableArrayAdditionsTest.m */; };
 		A10EB7FF141CC588008AA938 /* NSMutableArray+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB79A141CB33D008AA938 /* NSMutableArray+AJSAdditions.m */; };
+		A10EB802141CC7BC008AA938 /* UIViewAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB801141CC7BC008AA938 /* UIViewAdditionsTest.m */; };
+		A10EB803141CC842008AA938 /* UIView+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB7B7141CBDF4008AA938 /* UIView+AJSAdditions.m */; };
 		A10F4C36141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
 		A10F4C44141B693100617249 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C43141B693100617249 /* SenTestingKit.framework */; };
 		A10F4C47141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
@@ -63,6 +65,8 @@
 		A10EB7F8141CC175008AA938 /* NSStringAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringAdditionsTest.m; path = "Category Tests/NSStringAdditionsTest.m"; sourceTree = "<group>"; };
 		A10EB7FC141CC44A008AA938 /* NSMutableArrayAdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArrayAdditionsTest.h; path = "Category Tests/NSMutableArrayAdditionsTest.h"; sourceTree = "<group>"; };
 		A10EB7FD141CC44A008AA938 /* NSMutableArrayAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableArrayAdditionsTest.m; path = "Category Tests/NSMutableArrayAdditionsTest.m"; sourceTree = "<group>"; };
+		A10EB800141CC7BC008AA938 /* UIViewAdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewAdditionsTest.h; path = "Category Tests/UIViewAdditionsTest.h"; sourceTree = "<group>"; };
+		A10EB801141CC7BC008AA938 /* UIViewAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewAdditionsTest.m; path = "Category Tests/UIViewAdditionsTest.m"; sourceTree = "<group>"; };
 		A10F4C32141B693100617249 /* libAJSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAJSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F4C35141B693100617249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A10F4C39141B693100617249 /* AJSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJSKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				A10EB7F8141CC175008AA938 /* NSStringAdditionsTest.m */,
 				A10EB7FC141CC44A008AA938 /* NSMutableArrayAdditionsTest.h */,
 				A10EB7FD141CC44A008AA938 /* NSMutableArrayAdditionsTest.m */,
+				A10EB800141CC7BC008AA938 /* UIViewAdditionsTest.h */,
+				A10EB801141CC7BC008AA938 /* UIViewAdditionsTest.m */,
 			);
 			name = "Category Tests";
 			sourceTree = "<group>";
@@ -334,6 +340,8 @@
 				A10EB7FB141CC2A1008AA938 /* NSString+AJSAdditions.m in Sources */,
 				A10EB7FE141CC44A008AA938 /* NSMutableArrayAdditionsTest.m in Sources */,
 				A10EB7FF141CC588008AA938 /* NSMutableArray+AJSAdditions.m in Sources */,
+				A10EB802141CC7BC008AA938 /* UIViewAdditionsTest.m in Sources */,
+				A10EB803141CC842008AA938 /* UIView+AJSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
