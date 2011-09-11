@@ -10,7 +10,7 @@
 
 @implementation NSObject (AJSAdditions)
 
-- (void) ajs_performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay
+- (void) performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay
 {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, delay * NSEC_PER_SEC), dispatch_get_current_queue(), block);
 }

@@ -10,6 +10,8 @@
 
 @interface NSObject (AJSAdditions)
 
-- (void) ajs_performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay;
+//Helper to perform a block after an interval, GCD based
+
+- (void) performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay;
 
 @end
