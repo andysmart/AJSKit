@@ -12,6 +12,7 @@
 
 #import "NSObject+AJSAdditions.h"
 #import "NSMutableArray+AJSAdditions.h"
+#import "NSString+AJSAdditions.h"
 
 #import "UIAlertView+AJSAdditions.h"
 #import "UIApplication+AJSAdditions.h"

@@ -18,6 +18,10 @@
 		A10EB7A9141CB3B9008AA938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10EB7A5141CB387008AA938 /* UIKit.framework */; };
 		A10EB7AC141CB5BB008AA938 /* UIApplication+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10EB7AA141CB5BB008AA938 /* UIApplication+AJSAdditions.h */; };
 		A10EB7AD141CB5BB008AA938 /* UIApplication+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB7AB141CB5BB008AA938 /* UIApplication+AJSAdditions.m */; };
+		A10EB7B4141CB970008AA938 /* NSString+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10EB7B2141CB96F008AA938 /* NSString+AJSAdditions.h */; };
+		A10EB7B5141CB970008AA938 /* NSString+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB7B3141CB970008AA938 /* NSString+AJSAdditions.m */; };
+		A10EB7B8141CBDF4008AA938 /* UIView+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10EB7B6141CBDF4008AA938 /* UIView+AJSAdditions.h */; };
+		A10EB7B9141CBDF4008AA938 /* UIView+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB7B7141CBDF4008AA938 /* UIView+AJSAdditions.m */; };
 		A10F4C36141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
 		A10F4C44141B693100617249 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C43141B693100617249 /* SenTestingKit.framework */; };
 		A10F4C47141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
@@ -49,6 +53,10 @@
 		A10EB7A7141CB391008AA938 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A10EB7AA141CB5BB008AA938 /* UIApplication+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AJSAdditions.h"; sourceTree = "<group>"; };
 		A10EB7AB141CB5BB008AA938 /* UIApplication+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AJSAdditions.m"; sourceTree = "<group>"; };
+		A10EB7B2141CB96F008AA938 /* NSString+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AJSAdditions.h"; sourceTree = "<group>"; };
+		A10EB7B3141CB970008AA938 /* NSString+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AJSAdditions.m"; sourceTree = "<group>"; };
+		A10EB7B6141CBDF4008AA938 /* UIView+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AJSAdditions.h"; sourceTree = "<group>"; };
+		A10EB7B7141CBDF4008AA938 /* UIView+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AJSAdditions.m"; sourceTree = "<group>"; };
 		A10F4C32141B693100617249 /* libAJSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAJSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F4C35141B693100617249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A10F4C39141B693100617249 /* AJSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJSKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -93,6 +101,8 @@
 				A10EB7A2141CB352008AA938 /* UIAlertView+AJSAdditions.m */,
 				A10EB7AA141CB5BB008AA938 /* UIApplication+AJSAdditions.h */,
 				A10EB7AB141CB5BB008AA938 /* UIApplication+AJSAdditions.m */,
+				A10EB7B6141CBDF4008AA938 /* UIView+AJSAdditions.h */,
+				A10EB7B7141CBDF4008AA938 /* UIView+AJSAdditions.m */,
 			);
 			name = UIKitAdditions;
 			sourceTree = "<group>";
@@ -168,11 +178,13 @@
 		A10F4C5F141B696E00617249 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				A10EB798141CB2A1008AA938 /* UIKitAdditions */,
 				A10EB799141CB33D008AA938 /* NSMutableArray+AJSAdditions.h */,
 				A10EB79A141CB33D008AA938 /* NSMutableArray+AJSAdditions.m */,
 				A10EB79B141CB33D008AA938 /* NSObject+AJSAdditions.h */,
 				A10EB79C141CB33D008AA938 /* NSObject+AJSAdditions.m */,
-				A10EB798141CB2A1008AA938 /* UIKitAdditions */,
+				A10EB7B2141CB96F008AA938 /* NSString+AJSAdditions.h */,
+				A10EB7B3141CB970008AA938 /* NSString+AJSAdditions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -189,6 +201,8 @@
 				A10EB79F141CB33D008AA938 /* NSObject+AJSAdditions.h in Headers */,
 				A10EB7A3141CB352008AA938 /* UIAlertView+AJSAdditions.h in Headers */,
 				A10EB7AC141CB5BB008AA938 /* UIApplication+AJSAdditions.h in Headers */,
+				A10EB7B4141CB970008AA938 /* NSString+AJSAdditions.h in Headers */,
+				A10EB7B8141CBDF4008AA938 /* UIView+AJSAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +308,8 @@
 				A10EB7A0141CB33D008AA938 /* NSObject+AJSAdditions.m in Sources */,
 				A10EB7A4141CB352008AA938 /* UIAlertView+AJSAdditions.m in Sources */,
 				A10EB7AD141CB5BB008AA938 /* UIApplication+AJSAdditions.m in Sources */,
+				A10EB7B5141CB970008AA938 /* NSString+AJSAdditions.m in Sources */,
+				A10EB7B9141CBDF4008AA938 /* UIView+AJSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
