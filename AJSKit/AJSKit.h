@@ -11,3 +11,7 @@
 //Categories
 
 #import "NSObject+AJSAdditions.h"
+#import "NSMutableArray+AJSAdditions.h"
+
+#import "UIAlertView+AJSAdditions.h"
+#import "UIApplication+AJSAdditions.h"

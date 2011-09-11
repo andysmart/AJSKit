@@ -10,7 +10,8 @@
 
 @implementation NSMutableArray (AJSAdditions)
 
-- (void) moveObjectAtIndex:(NSInteger)oldIndex toIndex:(NSInteger)newIndex
+- (void) moveObjectAtIndex:(NSInteger)oldIndex 
+                   toIndex:(NSInteger)newIndex
 {
     if (newIndex != oldIndex) {
         

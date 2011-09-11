@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10EB791141CAC81008AA938 /* NSMutableArray+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10EB78F141CAC81008AA938 /* NSMutableArray+AJSAdditions.h */; };
-		A10EB792141CAC81008AA938 /* NSMutableArray+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB790141CAC81008AA938 /* NSMutableArray+AJSAdditions.m */; };
+		A10EB79D141CB33D008AA938 /* NSMutableArray+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10EB799141CB33D008AA938 /* NSMutableArray+AJSAdditions.h */; };
+		A10EB79E141CB33D008AA938 /* NSMutableArray+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB79A141CB33D008AA938 /* NSMutableArray+AJSAdditions.m */; };
+		A10EB79F141CB33D008AA938 /* NSObject+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10EB79B141CB33D008AA938 /* NSObject+AJSAdditions.h */; };
+		A10EB7A0141CB33D008AA938 /* NSObject+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB79C141CB33D008AA938 /* NSObject+AJSAdditions.m */; };
+		A10EB7A3141CB352008AA938 /* UIAlertView+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10EB7A1141CB352008AA938 /* UIAlertView+AJSAdditions.h */; };
+		A10EB7A4141CB352008AA938 /* UIAlertView+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB7A2141CB352008AA938 /* UIAlertView+AJSAdditions.m */; };
+		A10EB7A6141CB387008AA938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10EB7A5141CB387008AA938 /* UIKit.framework */; };
+		A10EB7A8141CB391008AA938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10EB7A7141CB391008AA938 /* CoreGraphics.framework */; };
+		A10EB7A9141CB3B9008AA938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10EB7A5141CB387008AA938 /* UIKit.framework */; };
+		A10EB7AC141CB5BB008AA938 /* UIApplication+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10EB7AA141CB5BB008AA938 /* UIApplication+AJSAdditions.h */; };
+		A10EB7AD141CB5BB008AA938 /* UIApplication+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB7AB141CB5BB008AA938 /* UIApplication+AJSAdditions.m */; };
 		A10F4C36141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
 		A10F4C44141B693100617249 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C43141B693100617249 /* SenTestingKit.framework */; };
-		A10F4C46141B693100617249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C45141B693100617249 /* UIKit.framework */; };
 		A10F4C47141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
-		A10F4C49141B693100617249 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C48141B693100617249 /* CoreGraphics.framework */; };
 		A10F4C4C141B693100617249 /* libAJSKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C32141B693100617249 /* libAJSKit.a */; };
 		A10F4C52141B693100617249 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A10F4C50141B693100617249 /* InfoPlist.strings */; };
 		A10F4C54141B693100617249 /* AJSKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A10F4C53141B693100617249 /* AJSKitTests.h */; };
 		A10F4C56141B693100617249 /* AJSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F4C55141B693100617249 /* AJSKitTests.m */; };
-		A10F4C63141B69DC00617249 /* NSObject+AJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A10F4C61141B69DC00617249 /* NSObject+AJSAdditions.h */; };
-		A10F4C64141B69DC00617249 /* NSObject+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F4C62141B69DC00617249 /* NSObject+AJSAdditions.m */; };
 		A10F4C66141B6BA600617249 /* AJSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A10F4C65141B6BA600617249 /* AJSKit.h */; };
 /* End PBXBuildFile section */
 
@@ -34,21 +39,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A10EB78F141CAC81008AA938 /* NSMutableArray+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AJSAdditions.h"; sourceTree = "<group>"; };
-		A10EB790141CAC81008AA938 /* NSMutableArray+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AJSAdditions.m"; sourceTree = "<group>"; };
+		A10EB799141CB33D008AA938 /* NSMutableArray+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AJSAdditions.h"; sourceTree = "<group>"; };
+		A10EB79A141CB33D008AA938 /* NSMutableArray+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AJSAdditions.m"; sourceTree = "<group>"; };
+		A10EB79B141CB33D008AA938 /* NSObject+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AJSAdditions.h"; sourceTree = "<group>"; };
+		A10EB79C141CB33D008AA938 /* NSObject+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AJSAdditions.m"; sourceTree = "<group>"; };
+		A10EB7A1141CB352008AA938 /* UIAlertView+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AJSAdditions.h"; sourceTree = "<group>"; };
+		A10EB7A2141CB352008AA938 /* UIAlertView+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AJSAdditions.m"; sourceTree = "<group>"; };
+		A10EB7A5141CB387008AA938 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A10EB7A7141CB391008AA938 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A10EB7AA141CB5BB008AA938 /* UIApplication+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AJSAdditions.h"; sourceTree = "<group>"; };
+		A10EB7AB141CB5BB008AA938 /* UIApplication+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AJSAdditions.m"; sourceTree = "<group>"; };
 		A10F4C32141B693100617249 /* libAJSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAJSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F4C35141B693100617249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A10F4C39141B693100617249 /* AJSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJSKit-Prefix.pch"; sourceTree = "<group>"; };
 		A10F4C42141B693100617249 /* AJSKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJSKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F4C43141B693100617249 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A10F4C45141B693100617249 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A10F4C48141B693100617249 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		A10F4C4F141B693100617249 /* AJSKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AJSKitTests-Info.plist"; sourceTree = "<group>"; };
 		A10F4C51141B693100617249 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A10F4C53141B693100617249 /* AJSKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJSKitTests.h; sourceTree = "<group>"; };
 		A10F4C55141B693100617249 /* AJSKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSKitTests.m; sourceTree = "<group>"; };
-		A10F4C61141B69DC00617249 /* NSObject+AJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AJSAdditions.h"; sourceTree = "<group>"; };
-		A10F4C62141B69DC00617249 /* NSObject+AJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AJSAdditions.m"; sourceTree = "<group>"; };
 		A10F4C65141B6BA600617249 /* AJSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJSKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10EB7A8141CB391008AA938 /* CoreGraphics.framework in Frameworks */,
+				A10EB7A6141CB387008AA938 /* UIKit.framework in Frameworks */,
 				A10F4C36141B693100617249 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,16 +77,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10F4C44141B693100617249 /* SenTestingKit.framework in Frameworks */,
-				A10F4C46141B693100617249 /* UIKit.framework in Frameworks */,
 				A10F4C47141B693100617249 /* Foundation.framework in Frameworks */,
-				A10F4C49141B693100617249 /* CoreGraphics.framework in Frameworks */,
 				A10F4C4C141B693100617249 /* libAJSKit.a in Frameworks */,
+				A10EB7A9141CB3B9008AA938 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10EB798141CB2A1008AA938 /* UIKitAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				A10EB7A1141CB352008AA938 /* UIAlertView+AJSAdditions.h */,
+				A10EB7A2141CB352008AA938 /* UIAlertView+AJSAdditions.m */,
+				A10EB7AA141CB5BB008AA938 /* UIApplication+AJSAdditions.h */,
+				A10EB7AB141CB5BB008AA938 /* UIApplication+AJSAdditions.m */,
+			);
+			name = UIKitAdditions;
+			sourceTree = "<group>";
+		};
 		A10F4C27141B693100617249 = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +119,10 @@
 		A10F4C34141B693100617249 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A10EB7A7141CB391008AA938 /* CoreGraphics.framework */,
+				A10EB7A5141CB387008AA938 /* UIKit.framework */,
 				A10F4C35141B693100617249 /* Foundation.framework */,
 				A10F4C43141B693100617249 /* SenTestingKit.framework */,
-				A10F4C45141B693100617249 /* UIKit.framework */,
-				A10F4C48141B693100617249 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				A10F4C65141B6BA600617249 /* AJSKit.h */,
-				A10F4C60141B69A700617249 /* Views */,
 				A10F4C5F141B696E00617249 /* Categories */,
 				A10F4C38141B693100617249 /* Supporting Files */,
 			);
@@ -148,19 +168,13 @@
 		A10F4C5F141B696E00617249 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				A10F4C61141B69DC00617249 /* NSObject+AJSAdditions.h */,
-				A10F4C62141B69DC00617249 /* NSObject+AJSAdditions.m */,
-				A10EB78F141CAC81008AA938 /* NSMutableArray+AJSAdditions.h */,
-				A10EB790141CAC81008AA938 /* NSMutableArray+AJSAdditions.m */,
+				A10EB799141CB33D008AA938 /* NSMutableArray+AJSAdditions.h */,
+				A10EB79A141CB33D008AA938 /* NSMutableArray+AJSAdditions.m */,
+				A10EB79B141CB33D008AA938 /* NSObject+AJSAdditions.h */,
+				A10EB79C141CB33D008AA938 /* NSObject+AJSAdditions.m */,
+				A10EB798141CB2A1008AA938 /* UIKitAdditions */,
 			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
-		A10F4C60141B69A700617249 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Views;
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +184,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10F4C63141B69DC00617249 /* NSObject+AJSAdditions.h in Headers */,
 				A10F4C66141B6BA600617249 /* AJSKit.h in Headers */,
-				A10EB791141CAC81008AA938 /* NSMutableArray+AJSAdditions.h in Headers */,
+				A10EB79D141CB33D008AA938 /* NSMutableArray+AJSAdditions.h in Headers */,
+				A10EB79F141CB33D008AA938 /* NSObject+AJSAdditions.h in Headers */,
+				A10EB7A3141CB352008AA938 /* UIAlertView+AJSAdditions.h in Headers */,
+				A10EB7AC141CB5BB008AA938 /* UIApplication+AJSAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10F4C64141B69DC00617249 /* NSObject+AJSAdditions.m in Sources */,
-				A10EB792141CAC81008AA938 /* NSMutableArray+AJSAdditions.m in Sources */,
+				A10EB79E141CB33D008AA938 /* NSMutableArray+AJSAdditions.m in Sources */,
+				A10EB7A0141CB33D008AA938 /* NSObject+AJSAdditions.m in Sources */,
+				A10EB7A4141CB352008AA938 /* UIAlertView+AJSAdditions.m in Sources */,
+				A10EB7AD141CB5BB008AA938 /* UIApplication+AJSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
