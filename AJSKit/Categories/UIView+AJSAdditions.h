@@ -12,4 +12,7 @@
 
 - (void) removeAllSubviews;
 
+- (BOOL) containsSubview:(UIView *)aView;
+- (BOOL) containsSubview:(UIView *)aView searchSubviews:(BOOL)searchSubviews;
+
 @end

@@ -16,4 +16,29 @@
         [v removeFromSuperview];
 }
 
+#pragma mark - Subview searching
+
+- (BOOL) containsSubview:(UIView *)aView
+{
+    return [self containsSubview:aView searchSubviews:NO];
+}
+
+- (BOOL) containsSubview:(UIView *)aView searchSubviews:(BOOL)searchSubviews
+{
+    for (UIView *v in self.subviews) {
+        
+        if ([v isEqual:aView]) {
+            return YES;
+        } else if (searchSubviews) {
+            for (UIView *v2 in v.subviews) {
+                if ([v2 containsSubview:aView searchSubviews:searchSubviews]) {
+                    return YES;
+                }
+            }
+        }
+    }
+    
+    return NO;
+}
+
 @end

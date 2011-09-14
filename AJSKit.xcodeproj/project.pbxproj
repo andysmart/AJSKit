@@ -28,6 +28,8 @@
 		A10EB7FF141CC588008AA938 /* NSMutableArray+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB79A141CB33D008AA938 /* NSMutableArray+AJSAdditions.m */; };
 		A10EB802141CC7BC008AA938 /* UIViewAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB801141CC7BC008AA938 /* UIViewAdditionsTest.m */; };
 		A10EB803141CC842008AA938 /* UIView+AJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EB7B7141CBDF4008AA938 /* UIView+AJSAdditions.m */; };
+		A10EBA2514213641008AA938 /* AJSLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = A10EBA2314213641008AA938 /* AJSLoadingView.h */; };
+		A10EBA2614213641008AA938 /* AJSLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EBA2414213641008AA938 /* AJSLoadingView.m */; };
 		A10F4C36141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
 		A10F4C44141B693100617249 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C43141B693100617249 /* SenTestingKit.framework */; };
 		A10F4C47141B693100617249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4C35141B693100617249 /* Foundation.framework */; };
@@ -67,6 +69,8 @@
 		A10EB7FD141CC44A008AA938 /* NSMutableArrayAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableArrayAdditionsTest.m; path = "Category Tests/NSMutableArrayAdditionsTest.m"; sourceTree = "<group>"; };
 		A10EB800141CC7BC008AA938 /* UIViewAdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewAdditionsTest.h; path = "Category Tests/UIViewAdditionsTest.h"; sourceTree = "<group>"; };
 		A10EB801141CC7BC008AA938 /* UIViewAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewAdditionsTest.m; path = "Category Tests/UIViewAdditionsTest.m"; sourceTree = "<group>"; };
+		A10EBA2314213641008AA938 /* AJSLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJSLoadingView.h; sourceTree = "<group>"; };
+		A10EBA2414213641008AA938 /* AJSLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJSLoadingView.m; sourceTree = "<group>"; };
 		A10F4C32141B693100617249 /* libAJSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAJSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F4C35141B693100617249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A10F4C39141B693100617249 /* AJSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJSKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -128,6 +132,15 @@
 			name = "Category Tests";
 			sourceTree = "<group>";
 		};
+		A10EBA281421364C008AA938 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10EBA2314213641008AA938 /* AJSLoadingView.h */,
+				A10EBA2414213641008AA938 /* AJSLoadingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A10F4C27141B693100617249 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				A10F4C65141B6BA600617249 /* AJSKit.h */,
+				A10EBA281421364C008AA938 /* Views */,
 				A10F4C5F141B696E00617249 /* Categories */,
 				A10F4C38141B693100617249 /* Supporting Files */,
 			);
@@ -223,6 +237,7 @@
 				A10EB7AC141CB5BB008AA938 /* UIApplication+AJSAdditions.h in Headers */,
 				A10EB7B4141CB970008AA938 /* NSString+AJSAdditions.h in Headers */,
 				A10EB7B8141CBDF4008AA938 /* UIView+AJSAdditions.h in Headers */,
+				A10EBA2514213641008AA938 /* AJSLoadingView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +344,7 @@
 				A10EB7AD141CB5BB008AA938 /* UIApplication+AJSAdditions.m in Sources */,
 				A10EB7B5141CB970008AA938 /* NSString+AJSAdditions.m in Sources */,
 				A10EB7B9141CBDF4008AA938 /* UIView+AJSAdditions.m in Sources */,
+				A10EBA2614213641008AA938 /* AJSLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
