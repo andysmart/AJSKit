@@ -16,4 +16,13 @@
         [v removeFromSuperview];
 }
 
+- (void) removeSubviewsOfType:(Class)type
+{
+    for (UIView *v in self.subviews) {
+        if ([v isKindOfClass:type]) {
+            [v removeFromSuperview];
+        }
+    }
+}
+
 @end

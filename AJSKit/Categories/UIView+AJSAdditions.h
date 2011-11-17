@@ -11,5 +11,6 @@
 @interface UIView (AJSAdditions)
 
 - (void) removeAllSubviews;
+- (void) removeSubviewsOfType:(Class)type;
 
 @end
